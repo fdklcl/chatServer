@@ -1,0 +1,57 @@
+[
+{
+  "directory": "/home/sweet/github/chatServer/V1.0/build/src/server",
+  "command": "/usr/bin/c++   -I/home/sweet/github/chatServer/V1.0/include -I/home/sweet/github/chatServer/V1.0/include/server -I/home/sweet/github/chatServer/V1.0/include/server/db -I/home/sweet/github/chatServer/V1.0/include/server/model -I/home/sweet/github/chatServer/V1.0/include/server/redis -I/home/sweet/github/chatServer/V1.0/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/chatserver.cpp.o -c /home/sweet/github/chatServer/V1.0/src/server/chatserver.cpp",
+  "file": "/home/sweet/github/chatServer/V1.0/src/server/chatserver.cpp"
+},
+{
+  "directory": "/home/sweet/github/chatServer/V1.0/build/src/server",
+  "command": "/usr/bin/c++   -I/home/sweet/github/chatServer/V1.0/include -I/home/sweet/github/chatServer/V1.0/include/server -I/home/sweet/github/chatServer/V1.0/include/server/db -I/home/sweet/github/chatServer/V1.0/include/server/model -I/home/sweet/github/chatServer/V1.0/include/server/redis -I/home/sweet/github/chatServer/V1.0/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/chatservice.cpp.o -c /home/sweet/github/chatServer/V1.0/src/server/chatservice.cpp",
+  "file": "/home/sweet/github/chatServer/V1.0/src/server/chatservice.cpp"
+},
+{
+  "directory": "/home/sweet/github/chatServer/V1.0/build/src/server",
+  "command": "/usr/bin/c++   -I/home/sweet/github/chatServer/V1.0/include -I/home/sweet/github/chatServer/V1.0/include/server -I/home/sweet/github/chatServer/V1.0/include/server/db -I/home/sweet/github/chatServer/V1.0/include/server/model -I/home/sweet/github/chatServer/V1.0/include/server/redis -I/home/sweet/github/chatServer/V1.0/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/main.cpp.o -c /home/sweet/github/chatServer/V1.0/src/server/main.cpp",
+  "file": "/home/sweet/github/chatServer/V1.0/src/server/main.cpp"
+},
+{
+  "directory": "/home/sweet/github/chatServer/V1.0/build/src/server",
+  "command": "/usr/bin/c++   -I/home/sweet/github/chatServer/V1.0/include -I/home/sweet/github/chatServer/V1.0/include/server -I/home/sweet/github/chatServer/V1.0/include/server/db -I/home/sweet/github/chatServer/V1.0/include/server/model -I/home/sweet/github/chatServer/V1.0/include/server/redis -I/home/sweet/github/chatServer/V1.0/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/db/commenConnectionPool.cpp.o -c /home/sweet/github/chatServer/V1.0/src/server/db/commenConnectionPool.cpp",
+  "file": "/home/sweet/github/chatServer/V1.0/src/server/db/commenConnectionPool.cpp"
+},
+{
+  "directory": "/home/sweet/github/chatServer/V1.0/build/src/server",
+  "command": "/usr/bin/c++   -I/home/sweet/github/chatServer/V1.0/include -I/home/sweet/github/chatServer/V1.0/include/server -I/home/sweet/github/chatServer/V1.0/include/server/db -I/home/sweet/github/chatServer/V1.0/include/server/model -I/home/sweet/github/chatServer/V1.0/include/server/redis -I/home/sweet/github/chatServer/V1.0/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/db/connection.cpp.o -c /home/sweet/github/chatServer/V1.0/src/server/db/connection.cpp",
+  "file": "/home/sweet/github/chatServer/V1.0/src/server/db/connection.cpp"
+},
+{
+  "directory": "/home/sweet/github/chatServer/V1.0/build/src/server",
+  "command": "/usr/bin/c++   -I/home/sweet/github/chatServer/V1.0/include -I/home/sweet/github/chatServer/V1.0/include/server -I/home/sweet/github/chatServer/V1.0/include/server/db -I/home/sweet/github/chatServer/V1.0/include/server/model -I/home/sweet/github/chatServer/V1.0/include/server/redis -I/home/sweet/github/chatServer/V1.0/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/model/friendmodel.cpp.o -c /home/sweet/github/chatServer/V1.0/src/server/model/friendmodel.cpp",
+  "file": "/home/sweet/github/chatServer/V1.0/src/server/model/friendmodel.cpp"
+},
+{
+  "directory": "/home/sweet/github/chatServer/V1.0/build/src/server",
+  "command": "/usr/bin/c++   -I/home/sweet/github/chatServer/V1.0/include -I/home/sweet/github/chatServer/V1.0/include/server -I/home/sweet/github/chatServer/V1.0/include/server/db -I/home/sweet/github/chatServer/V1.0/include/server/model -I/home/sweet/github/chatServer/V1.0/include/server/redis -I/home/sweet/github/chatServer/V1.0/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/model/groupmodel.cpp.o -c /home/sweet/github/chatServer/V1.0/src/server/model/groupmodel.cpp",
+  "file": "/home/sweet/github/chatServer/V1.0/src/server/model/groupmodel.cpp"
+},
+{
+  "directory": "/home/sweet/github/chatServer/V1.0/build/src/server",
+  "command": "/usr/bin/c++   -I/home/sweet/github/chatServer/V1.0/include -I/home/sweet/github/chatServer/V1.0/include/server -I/home/sweet/github/chatServer/V1.0/include/server/db -I/home/sweet/github/chatServer/V1.0/include/server/model -I/home/sweet/github/chatServer/V1.0/include/server/redis -I/home/sweet/github/chatServer/V1.0/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/model/offlinemessagemode.cpp.o -c /home/sweet/github/chatServer/V1.0/src/server/model/offlinemessagemode.cpp",
+  "file": "/home/sweet/github/chatServer/V1.0/src/server/model/offlinemessagemode.cpp"
+},
+{
+  "directory": "/home/sweet/github/chatServer/V1.0/build/src/server",
+  "command": "/usr/bin/c++   -I/home/sweet/github/chatServer/V1.0/include -I/home/sweet/github/chatServer/V1.0/include/server -I/home/sweet/github/chatServer/V1.0/include/server/db -I/home/sweet/github/chatServer/V1.0/include/server/model -I/home/sweet/github/chatServer/V1.0/include/server/redis -I/home/sweet/github/chatServer/V1.0/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/model/usermodel.cpp.o -c /home/sweet/github/chatServer/V1.0/src/server/model/usermodel.cpp",
+  "file": "/home/sweet/github/chatServer/V1.0/src/server/model/usermodel.cpp"
+},
+{
+  "directory": "/home/sweet/github/chatServer/V1.0/build/src/server",
+  "command": "/usr/bin/c++   -I/home/sweet/github/chatServer/V1.0/include -I/home/sweet/github/chatServer/V1.0/include/server -I/home/sweet/github/chatServer/V1.0/include/server/db -I/home/sweet/github/chatServer/V1.0/include/server/model -I/home/sweet/github/chatServer/V1.0/include/server/redis -I/home/sweet/github/chatServer/V1.0/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/redis/redis.cpp.o -c /home/sweet/github/chatServer/V1.0/src/server/redis/redis.cpp",
+  "file": "/home/sweet/github/chatServer/V1.0/src/server/redis/redis.cpp"
+},
+{
+  "directory": "/home/sweet/github/chatServer/V1.0/build/src/client",
+  "command": "/usr/bin/c++   -I/home/sweet/github/chatServer/V1.0/include -I/home/sweet/github/chatServer/V1.0/include/server -I/home/sweet/github/chatServer/V1.0/include/server/db -I/home/sweet/github/chatServer/V1.0/include/server/model -I/home/sweet/github/chatServer/V1.0/include/server/redis -I/home/sweet/github/chatServer/V1.0/thirdparty  -g -g   -o CMakeFiles/ChatClient.dir/main.cpp.o -c /home/sweet/github/chatServer/V1.0/src/client/main.cpp",
+  "file": "/home/sweet/github/chatServer/V1.0/src/client/main.cpp"
+}
+]

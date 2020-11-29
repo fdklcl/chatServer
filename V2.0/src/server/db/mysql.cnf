@@ -1,0 +1,12 @@
+#数据库连接池的配置文件
+ip=127.0.0.1
+port=3306
+username=root
+password=123456
+dbname=chat
+initSize=10
+maxSize=1024
+#最大空闲时间默认单位是秒,超过该时间去除多余连接,仅剩下初始连接量
+maxIdleTime=60
+#连接超时时间单位是毫秒,100毫秒时间内持续查询_connectionQue中是否有空闲连接,若无表示连接失败
+connectionTimeout=100

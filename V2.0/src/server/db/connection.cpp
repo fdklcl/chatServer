@@ -1,0 +1,49 @@
+#include "connection.hpp"
+#include <muduo/base/Logging.h>
+
+Connection::Connection()
+{
+	_conn = mysql_init(nullptr);   //初始化一个连接句柄
+}
+Connection::~Connection()
+{
+	if (_conn != nullptr)
+		mysql_close(_conn);     //关闭MySQL服务器的连接
+}
+
+bool Connection::connect(string ip,
+	unsigned short port,
+	string username,
+	string password,
+	string dbname)
+{
+	//连接服务器
+	MYSQL* p = mysql_real_connect(_conn, ip.c_str(), username.c_str(), password.c_str()
+		, dbname.c_str(), port, nullptr, 0);
+	return p != nullptr;
+}
+bool Connection::update(string sql)
+{
+	if (mysql_query(_conn, sql.c_str()))
+	{
+		LOG_ERROR << "跟新失败" << sql;
+		return false;
+	}
+	return true;
+}
+
+MYSQL_RES* Connection::query(string sql)
+{
+	if (mysql_query(_conn, sql.c_str()))
+	{
+		LOG_ERROR << "查询失败" << sql;
+		return nullptr;
+	}
+	return mysql_use_result(_conn);
+}
+
+//获取连接
+MYSQL* Connection::getConnection()
+{
+    return _conn;
+}
